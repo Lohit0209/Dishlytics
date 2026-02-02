@@ -1,0 +1,22 @@
+{
+    "name": "smart-kitchen-analytics",
+    "version": "1.0.0",
+    "description": "ML-powered recipe quantity predictions and cost calculations",
+    "main": "index.html",
+    "scripts": {
+        "generate-data": "node scripts/ml-model-generator.js",
+        "train-model": "node scripts/ml-trainer.js",
+        "build-ml": "npm run generate-data && npm run train-model"
+    },
+    "keywords": [
+        "ml",
+        "tensorflow",
+        "cooking",
+        "analytics"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@tensorflow/tfjs-node": "^4.11.0"
+    }
+}

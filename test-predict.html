@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Test - Prediction</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="container" style="padding-top: 40px;">
+        <h1 style="color: var(--text-primary); margin-bottom: 20px;">🧪 Quick Prediction Test</h1>
+
+        <div id="predict"></div>
+    </div>
+
+    <script src="scripts/recipes-data.js"></script>
+    <script src="scripts/quantity-predictor.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            console.log('Test page loaded');
+            await loadMLModel();
+            renderPredict();
+            console.log('Prediction interface rendered');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dishlytics - Cook Perfect Portions Every Time</title>
+  <meta name="description"
+    content="Stop wasting food (and money)! AI-powered meal portions that actually make sense for Gen-Z cooks" />
+
+  <link rel="stylesheet" href="styles/main.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.11.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="brand">
+      <div class="brand-title">Dishlytics</div>
+      <div class="brand-sub">AI that actually knows how much to cook 🍳</div>
+    </div>
+
+    <div class="nav-actions">
+      <button class="nav-btn active" data-tab="home">Home</button>
+      <button class="nav-btn" data-tab="predict">AI Predict</button>
+      <button class="nav-btn" data-tab="cost-calculator">Cost Calculator</button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="home"></section>
+
+    <section id="predict" class="hidden"></section>
+
+    <section id="cost-calculator" class="hidden"></section>
+  </main>
+
+  <footer class="footer">
+    <div>© 2026 Dishlytics</div>
+    <div class="footer-sub">Cook smart, waste less, save more 💚</div>
+  </footer>
+
+  <script src="scripts/recipes-data.js"></script>
+  <script src="scripts/ingredient-prices.js"></script>
+  <script src="scripts/data-loader.js"></script>
+  <script src="scripts/home-page.js"></script>
+  <script src="scripts/quantity-predictor.js"></script>
+  <script src="scripts/cost-calculator.js"></script>
+  <script src="scripts/charts-engine.js"></script>
+  <script src="scripts/analytics-engine.js"></script>
+  <script src="scripts/bootstrap.js"></script>
+</body>
+
+</html>

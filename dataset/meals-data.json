@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "date": "2025-12-10",
+    "dish": "paneer_butter_masala",
+    "mealType": "lunch",
+    "adults": 2,
+    "teens": 1,
+    "kids": 0,
+    "seniors": 0,
+    "totalPeople": 3,
+    "cooked": 650,
+    "leftover": 80,
+    "eaten": 570
+  },
+  {
+    "id": 2,
+    "date": "2025-12-11",
+    "dish": "veg_biryani",
+    "mealType": "dinner",
+    "adults": 4,
+    "teens": 0,
+    "kids": 1,
+    "seniors": 0,
+    "totalPeople": 5,
+    "cooked": 1050,
+    "leftover": 120,
+    "eaten": 930
+  },
+  {
+    "id": 3,
+    "date": "2025-12-12",
+    "dish": "chicken_curry",
+    "mealType": "lunch",
+    "adults": 3,
+    "teens": 1,
+    "kids": 1,
+    "seniors": 0,
+    "totalPeople": 5,
+    "cooked": 1100,
+    "leftover": 150,
+    "eaten": 950
+  }
+]
