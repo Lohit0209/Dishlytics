@@ -164,9 +164,6 @@ Edit `scripts/ingredient-prices.js` to update ingredient prices:
 - ✅ Safari 14+
 - ✅ Edge 90+
 
-## 🤝 Contributing
-
-Feel free to fork this project and add your own recipes, improve the ML algorithm, or enhance the UI!
 
 ## 📄 License
 
